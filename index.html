@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Programmer</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="logo.jpg" />
+    <script
+      src="https://kit.fontawesome.com/fe854526ee.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="style.css" rel="stylesheet" />
+    <link href="style-body.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header id="header">
+      <i class="fas fa-bars bars"></i>
+      <h1>&#60;/Progrmmer></h1>
+      <span id="img_icon"><i class="fas fa-user-circle user" onclick="user_image()"></i></span>
+    </header>
+    <a href="#header"><i class="fas fa-arrow-circle-up up"></i></a>
+    <div class="content" id="content">
+      <i class="fas fa-times times" onclick="del()"></i>
+      <button onclick="del() , sup_1()">
+        Electronecs<i class="fas fa-chevron-right"></i>
+      </button>
+      <button onclick="del(),sup_2()">
+        Electronecs<i class="fas fa-chevron-right"></i>
+      </button>
+      <button onclick="del()">
+        Electronecs<i class="fas fa-chevron-right"></i>
+      </button>
+      <button onclick="del()">
+        Electronecs<i class="fas fa-chevron-right"></i>
+      </button>
+      <button onclick="del()">
+        Electronecs<i class="fas fa-chevron-right"></i>
+      </button>
+      <button onclick="del()">
+        Electronecs<i class="fas fa-chevron-right"></i>
+      </button>
+      <button onclick="del()">
+        Electronecs<i class="fas fa-chevron-right"></i>
+      </button>
+    </div>
+    <div class="sittings" id="sittings" onclick="del2()">
+      <button class="times times_sit"><i class="fas fa-times times"></i></button
+      ><br />
+      <center>
+        <span class="image_sit">
+          <i class="fas fa-user-circle user-login"></i>
+        </span>
+        
+      </center>
+      <label >Name : <span class="user-name">ـــــــــــــــ </span></label><br />
+      <label >ID : <span class="user-ID">ـــــــــــــــ</span></label
+      ><br />
+      <label >Group : <span class="user-Group">ــــــ</span></label
+      ><br />
+      <label >Section : <span class="user-Section">ـــــ</span></label
+      ><br />
+      <label>theme : </label><br />
+      <div class="theme" style="text-align: center">
+        <i class="fas fa-sun sun theme-active"></i>
+        <i class="fas fa-moon moon"></i>
+      </div>
+      <button class="edit">Edit Profile</button>
+    </div>
+    <section class="body">
+    <center>
+      <img src="logo.jpg" style="border-radius: 50%; width: 30%;margin: 5%;">
+      <img src="chi-logo-1.png" style="border-radius: 50%; width: 30%;margin: 5%;">
+    </center>
+    </section>
+    <div class="login">
+      <div class="img-user-log1">
+        <i class="fas fa-user-circle user-login"
+          ><label for="camera"><i class="fas fa-camera camera"></i></label
+        ></i>
+      </div>
+      <div class="name">
+        <input
+          type="text"
+          required
+          name="user name"
+          value="2020030"
+          class="ID_user"
+        />
+        <label>ID</label>
+        <span></span>
+      </div>
+
+      <input
+        type="file"
+        id="camera"
+        accept="image/*"
+        onchange="loadFile(event)"
+        style="display: none"
+      />
+      <button class="Visitor">Visitor</button>
+      <button class="bttn-login">login</button>
+    </div>
+    <div class="massage"></div>
+  <footer>
+      <span>Created By <a href="https://mohamed-said223.github.io/Portfolio/" title="ID:2020030161">Mohamed Said </a> | 2021.</span>
+  </footer> 
+    <script src="sup1.js"></script>
+    <script src="sup2.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

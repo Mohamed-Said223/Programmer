@@ -8,14 +8,14 @@ color{
 body{
   margin: 0;
   overflow-x: hidden;
-  filter: blur();
-  height: 100%;
+  width: 100%;
 }
 header{
   border-bottom: 1px solid #ccc;
   box-shadow: 2px 0 50px  #ccc;
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 header i{
   color: #03a9f4;
@@ -84,11 +84,12 @@ height: 60%;
   transform: translateX(-120%);
 }
 .sittings{
-  transform: translateX(120%);
+  transform: translateX(100%);
 }
 .manu-active{
   transform: translateX(0) !important;
   opacity: 1;
+  /* display: block; */
 }
 .content .times,.times_sit{
   font-size: 40px;
@@ -344,5 +345,8 @@ footer span a:hover{
   .login{
 width: 100%;
 right: 0;
+  }
+  footer{
+    font-size: 20px;
   }
 }

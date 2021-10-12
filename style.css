@@ -16,6 +16,7 @@ header{
   display: flex;
   justify-content: space-between;
   width: 100%;
+  background-color: var(--back_header);
 }
 header i{
   color: #03a9f4;
@@ -25,6 +26,7 @@ header i{
 }
 header h1{
 font-weight: bold;
+color: var(--color_header);
 }
 header img,#img_icon .user{
   width: 50px;
@@ -33,6 +35,9 @@ header img,#img_icon .user{
   transform: translateX(-30%);
   border-radius: 50%;
   font-size: 40px;
+}
+.no_click{
+  pointer-events: none;
 }
 .up{
   position: fixed;
@@ -55,9 +60,6 @@ header img,#img_icon .user{
     bottom: 3%;
   }
 }
-.body1{
-position: relative;
-}
 .active{
   background: #2196f3;
   color: #fff;
@@ -69,6 +71,9 @@ position: absolute;
 left: 5%;
 height: 60%;
 }
+.body{
+  background-color: var(--back_body_sit_cont);
+}
 .content,.sittings{
   position: absolute;
   z-index: 4;
@@ -76,7 +81,7 @@ height: 60%;
   height: 100%;
   top: 0;
   padding: 2% 0 ;
-  background-color: #ccc;
+  background-color: var(--back_body_sit_cont);
   border-top-right-radius:3%;
   border-bottom-right-radius:3%;
   transition-duration: 1s;
@@ -152,7 +157,7 @@ right: 5%;
   font-weight: bolder;
 }
 .sittings span{
-  color: #000;
+  color:var(--color_header);
 }
 .sittings .user-name{
   font-size: 15px;
@@ -170,7 +175,7 @@ right: 5%;
 }
 .sittings .edit{
   border: none;
-  background-color: #fff;
+  background-color: var(--back_button);
   color: #03a9f4;
   font-weight: bold;
   font-size: 20px;
@@ -208,7 +213,7 @@ transition-duration:1s;
   border: 3px solid #2196f3;
   text-align: center;
   padding: 1%;
-  background-color: #fff;
+  background-color: var(--back_contant);
   z-index: 100;
 }
 .user-login{
@@ -216,7 +221,7 @@ transition-duration:1s;
   color: #03a9f4;
 }
 .camera{
-  color: #fff;
+  color: var(--back_contant);
   padding: 10px;
   background-color: #2196f3;
   z-index: 5;
@@ -246,7 +251,7 @@ border-radius: 50%;
   border: none;
   font-size: 20px;
   box-shadow: none;
-  color: #000;
+  color: var(--color_contant);
   width: 60%;
   left: 20%;
   height: 20px;
@@ -356,5 +361,9 @@ right: 0;
   }
   .sittings .user-name{
     font-size: 25px;
+  }
+  .sittings .user-img{
+    width: 100px;
+    height: 100px;
   }
 }

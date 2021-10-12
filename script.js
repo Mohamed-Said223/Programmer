@@ -19,8 +19,10 @@ let user_name = document.querySelector(".user-name");
 let user_ID = document.querySelector(".user-ID");
 let user_Group = document.querySelector(".user-Group");
 let user_Section = document.querySelector(".user-Section");
+let moon = document.querySelector(".moon");
+let sun = document.querySelector(".sun");
+let theme = document.querySelector(".them-file");
 let id_log;
-
 bars.onclick = () => {
   del2();
   content.style.display = "block";
@@ -76,20 +78,22 @@ var loadFile = function (event) {
 bttn_login.onclick = () => {
   id_log = ID_user.value;
   login.style.display = "none";
-  // user.style.display = "none";
-  // bars.style.display = "none";
   student(ID_user.value);
+  bars.classList.remove("no_click");
+  img_icon.classList.remove("no_click");
 };
 Visitor.onclick = () => {
   id_log = "********";
   login.style.display = "none";
-  // user.style.display = "none";
-  // bars.style.display = "none";
   student("********");
+  bars.classList.remove("no_click");
+  img_icon.classList.remove("no_click");
 };
 edit.onclick = () => {
   id_log = "";
   login.style.display = "block";
+  bars.classList.add("no_click");
+  img_icon.classList.add("no_click");
 };
 function student(id1) {
   for (let index = 0; index < students.length; index++) {
@@ -107,4 +111,30 @@ function student(id1) {
       user_Section.innerHTML = `ــــــ`;
     }
   }
+}
+// function theme(){
+// document.styleSheets[0].rules[0].style.removeProperty("--back_header");
+// document.styleSheets[0].rules[0].style.removeProperty("--color_header");
+// document.styleSheets[0].rules[0].style.removeProperty("--back_body_sit_cont");
+// document.styleSheets[0].rules[0].style.removeProperty("--back_contant");
+// document.styleSheets[0].rules[0].style.removeProperty("--color_contant");
+// document.styleSheets[0].rules[0].style.removeProperty("--back_button");
+
+// document.styleSheets[0].rules[0].style.setProperty("--back_header","#fff");
+// document.styleSheets[0].rules[0].style.setProperty("--color_header","#000");
+// document.styleSheets[0].rules[0].style.setProperty("--back_body_sit_cont","#ccc");
+// document.styleSheets[0].rules[0].style.setProperty("--back_contant","#fff");
+// document.styleSheets[0].rules[0].style.setProperty("--color_contant","#000");
+// document.styleSheets[0].rules[0].style.setProperty("--back_button","#fff");
+// }
+sun.onclick=()=>{
+  theme.href="sun.css";
+  moon.classList.remove("theme-active");
+  sun.classList.add("theme-active");
+
+}
+moon.onclick=()=>{
+  theme.href="night.css"; 
+  sun.classList.remove("theme-active");
+  moon.classList.add("theme-active");
 }

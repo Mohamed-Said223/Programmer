@@ -90,7 +90,7 @@ let sup1=`<div class="finbyz-timeline">
       <div
         id="particles_5cf90ca81976a"
         class="particles-js"
-        style="top: 0%; left: 0%; width: 30%; height: 100%"
+        style="top: 0%; left: 0%; width: 30%; : 100%"
         data-particles-type="hexagons"
         data-particles-number="30"
         data-particles-color="#ff7e00,#3224e9,#69e9f2"

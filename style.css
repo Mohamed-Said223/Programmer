@@ -8,7 +8,7 @@ color{
 body{
   margin: 0;
   overflow-x: hidden;
-  width: 100%;
+  width: 1;
 }
 header{
   border-bottom: 1px solid #ccc;
@@ -55,6 +55,9 @@ header img,#img_icon .user{
     bottom: 3%;
   }
 }
+.body1{
+position: relative;
+}
 .active{
   background: #2196f3;
   color: #fff;
@@ -77,8 +80,9 @@ height: 60%;
   border-top-right-radius:3%;
   border-bottom-right-radius:3%;
   transition-duration: 1s;
-  /* display: none; */
+  display: none;
   opacity: 0;
+  z-index: 11;
 }
 .content{
   transform: translateX(-120%);
@@ -209,11 +213,12 @@ transition-duration:1s;
 }
 .user-login{
   font-size: 100px;
+  color: #03a9f4;
 }
 .camera{
   color: #fff;
   padding: 10px;
-  background-color: #03a9f4;
+  background-color: #2196f3;
   z-index: 5;
   position: absolute;
   font-size: 25px;

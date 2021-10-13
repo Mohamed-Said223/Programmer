@@ -8,7 +8,6 @@ color{
 body{
   margin: 0;
   overflow-x: hidden;
-  width: 1;
 }
 header{
   border-bottom: 1px solid #ccc;
@@ -43,7 +42,7 @@ header img,#img_icon .user{
   position: fixed;
   bottom: 3%;
   right: 2%;
-  color: #03a9f4;
+  color: #004464;
   padding: 5px;
   font-size: 32px;
   animation: uptodown 1s linear infinite;
@@ -72,7 +71,7 @@ left: 5%;
 height: 60%;
 }
 .body{
-  background-color: var(--back_body_sit_cont);
+  background-color: var(--back_body);
 }
 .content,.sittings{
   position: absolute;
@@ -332,6 +331,50 @@ transition-duration:1s;
 .bttn-login:hover::before,.Visitor:hover::before{
   width: 100%;
 }
+.link_body{
+  font-size: 32px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #2196f3;
+}
+.link_body:hover{
+  color: #004464;
+  text-decoration: underline;
+}
+
+.download_body{
+  border: none;
+  background-color: var(--back_button);
+  color: #03a9f4;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px 20px;
+  margin-top: 10%;
+  margin-left: 10%;
+  position: relative;
+  text-decoration: none;
+}
+.download_body:hover{
+  border: none;
+  color: #fff;
+  background-color: #2196f3;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+.download_body::before{
+  content: '';
+  border-bottom: 4px solid #004464;
+  height: 0px;
+  width: 0%;
+position: absolute;
+bottom: 0;
+left: 0;
+transition-duration:1s;
+}
+.download_body:hover::before{
+  width: 100%;
+}
 footer{
   background: #03a9f4;
   padding: 15px 23px;
@@ -347,6 +390,7 @@ footer span a{
 footer span a:hover{
   text-decoration: underline;
 }
+
 @media (max-width: 767px) {
   .content,.sittings{
     width: 100%;

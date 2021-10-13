@@ -75,10 +75,10 @@ let sup2=`<div class="finbyz-timeline">
                     22222222222محتوي مشابة
                   </h5>
                   <div class="time_line-descr">
-                    <a href="#">Click</a>
+                    <a href="#" class="link_body">Click</a>
                   </div>
-                  <hr color="#12affe">
-                  <button>download images<i class="fas fa-download"></i></button>
+                  <hr color="#12affe"><br>
+                  <a href="#" class="download_body" download>Download Images <i class="fas fa-download"></i></a>
                 </div>
               </div>
               <!-- // ======== -->

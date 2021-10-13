@@ -23,6 +23,32 @@ let moon = document.querySelector(".moon");
 let sun = document.querySelector(".sun");
 let theme = document.querySelector(".them-file");
 let id_log;
+let image;
+if(window.localStorage.getItem("id")){
+  login.style.display = "none";
+  student(window.localStorage.getItem("id"));
+  bars.classList.remove("no_click");
+  img_icon.classList.remove("no_click");
+}
+if (window.localStorage.getItem("theme")) {
+  theme.href = window.localStorage.getItem("theme");
+  if (window.localStorage.getItem("theme") === "sun.css") {
+    sun.classList.add("theme-active");
+    moon.classList.remove("theme-active");
+  } else {
+    sun.classList.remove("theme-active");
+    moon.classList.add("theme-active");
+  }
+}
+if(window.localStorage.getItem("image")){
+  img_user_log1.innerHTML =
+  `<img src="` +
+  window.localStorage.getItem("image") +
+  `" class="img-user-log"><label for="camera"><i class="fas fa-camera camera"></i></label>`;
+img_icon.innerHTML =
+  `<img src="` + window.localStorage.getItem("image") + `"onclick="user_image()">`;
+image_sit.innerHTML = `<img src="` + window.localStorage.getItem("image") + `" class="user-img">`;
+}
 bars.onclick = () => {
   del2();
   content.style.display = "block";
@@ -72,15 +98,24 @@ var loadFile = function (event) {
     img_icon.innerHTML =
       `<img src="` + reader.result + `"onclick="user_image()">`;
     image_sit.innerHTML = `<img src="` + reader.result + `" class="user-img">`;
+    image = reader.result;
+    window.localStorage.setItem("image",image);
   };
   reader.readAsDataURL(event.target.files[0]);
 };
 bttn_login.onclick = () => {
   id_log = ID_user.value;
-  login.style.display = "none";
+  let TF = Number.isInteger(+id_log);
+  if(id_log.length===10 && TF){
+      login.style.display = "none";
   student(ID_user.value);
   bars.classList.remove("no_click");
   img_icon.classList.remove("no_click");
+  window.localStorage.setItem("id",ID_user.value);
+  }
+  else{
+    window.alert("عدد الارقام المدخلة لا يساوي10 او يحتوي علي حروف ");
+  }
 };
 Visitor.onclick = () => {
   id_log = "********";
@@ -112,29 +147,15 @@ function student(id1) {
     }
   }
 }
-// function theme(){
-// document.styleSheets[0].rules[0].style.removeProperty("--back_header");
-// document.styleSheets[0].rules[0].style.removeProperty("--color_header");
-// document.styleSheets[0].rules[0].style.removeProperty("--back_body_sit_cont");
-// document.styleSheets[0].rules[0].style.removeProperty("--back_contant");
-// document.styleSheets[0].rules[0].style.removeProperty("--color_contant");
-// document.styleSheets[0].rules[0].style.removeProperty("--back_button");
-
-// document.styleSheets[0].rules[0].style.setProperty("--back_header","#fff");
-// document.styleSheets[0].rules[0].style.setProperty("--color_header","#000");
-// document.styleSheets[0].rules[0].style.setProperty("--back_body_sit_cont","#ccc");
-// document.styleSheets[0].rules[0].style.setProperty("--back_contant","#fff");
-// document.styleSheets[0].rules[0].style.setProperty("--color_contant","#000");
-// document.styleSheets[0].rules[0].style.setProperty("--back_button","#fff");
-// }
-sun.onclick=()=>{
-  theme.href="sun.css";
+sun.onclick = () => {
+  theme.href = "sun.css";
   moon.classList.remove("theme-active");
   sun.classList.add("theme-active");
-
-}
-moon.onclick=()=>{
-  theme.href="night.css"; 
+  window.localStorage.setItem("theme", "sun.css");
+};
+moon.onclick = () => {
+  theme.href = "night.css";
   sun.classList.remove("theme-active");
   moon.classList.add("theme-active");
-}
+  window.localStorage.setItem("theme", "night.css");
+};

@@ -24,7 +24,7 @@ let sun = document.querySelector(".sun");
 let theme = document.querySelector(".them-file");
 let id_log;
 let image;
-if(window.localStorage.getItem("id")){
+if (window.localStorage.getItem("id")) {
   login.style.display = "none";
   student(window.localStorage.getItem("id"));
   bars.classList.remove("no_click");
@@ -40,14 +40,17 @@ if (window.localStorage.getItem("theme")) {
     moon.classList.add("theme-active");
   }
 }
-if(window.localStorage.getItem("image")){
+if (window.localStorage.getItem("image")) {
   img_user_log1.innerHTML =
-  `<img src="` +
-  window.localStorage.getItem("image") +
-  `" class="img-user-log"><label for="camera"><i class="fas fa-camera camera"></i></label>`;
-img_icon.innerHTML =
-  `<img src="` + window.localStorage.getItem("image") + `"onclick="user_image()">`;
-image_sit.innerHTML = `<img src="` + window.localStorage.getItem("image") + `" class="user-img">`;
+    `<img src="` +
+    window.localStorage.getItem("image") +
+    `" class="img-user-log"><label for="camera"><i class="fas fa-camera camera"></i></label>`;
+  img_icon.innerHTML =
+    `<img src="` +
+    window.localStorage.getItem("image") +
+    `"onclick="user_image()">`;
+  image_sit.innerHTML =
+    `<img src="` + window.localStorage.getItem("image") + `" class="user-img">`;
 }
 bars.onclick = () => {
   del2();
@@ -99,21 +102,20 @@ var loadFile = function (event) {
       `<img src="` + reader.result + `"onclick="user_image()">`;
     image_sit.innerHTML = `<img src="` + reader.result + `" class="user-img">`;
     image = reader.result;
-    window.localStorage.setItem("image",image);
+    window.localStorage.setItem("image", image);
   };
   reader.readAsDataURL(event.target.files[0]);
 };
 bttn_login.onclick = () => {
   id_log = ID_user.value;
   let TF = Number.isInteger(+id_log);
-  if(id_log.length===10 && TF){
-      login.style.display = "none";
-  student(ID_user.value);
-  bars.classList.remove("no_click");
-  img_icon.classList.remove("no_click");
-  window.localStorage.setItem("id",ID_user.value);
-  }
-  else{
+  if (id_log.length === 10 && TF) {
+    login.style.display = "none";
+    student(ID_user.value);
+    bars.classList.remove("no_click");
+    img_icon.classList.remove("no_click");
+    window.localStorage.setItem("id", ID_user.value);
+  } else {
     window.alert("عدد الارقام المدخلة لا يساوي10 او يحتوي علي حروف ");
   }
 };
@@ -131,21 +133,44 @@ edit.onclick = () => {
   img_icon.classList.add("no_click");
 };
 function student(id1) {
-  for (let index = 0; index < students.length; index++) {
-    let id_fun = students[index].id;
+
+  let x = 0;
+  while (x < students1.length) {
+    let id_fun = students1[x].id;
     if (id_fun == id1) {
-      user_name.innerHTML = students[index].name;
-      user_ID.innerHTML = students[index].id;
-      user_Group.innerHTML = students[index].group;
-      user_Section.innerHTML = students[index].section;
+      user_name.innerHTML = students1[x].name;
+      user_ID.innerHTML = students1[x].id;
+      user_Group.innerHTML = students1[x].group;
+      user_Section.innerHTML = students1[x].section;
       break;
-    } else {
-      user_name.innerHTML = `ـــــــــــــــ`;
-      user_ID.innerHTML = `ــــــــــــ`;
-      user_Group.innerHTML = `ــــــ`;
-      user_Section.innerHTML = `ــــــ`;
     }
+    else{
+      user_name.innerHTML = "ـــــــــ";
+      user_ID.innerHTML = "ـــــــــ";
+      user_Group.innerHTML = "ـــــــــ";
+      user_Section.innerHTML = "ـــــــــ";
+    }
+    x++;
   }
+  let y = 0;
+  while (y < students2.length) {
+    let id_fun = students2[y].id;
+    if (id_fun == id1) {
+      user_name.innerHTML = students2[y].name;
+      user_ID.innerHTML = students2[y].id;
+      user_Group.innerHTML = students2[y].group;
+      user_Section.innerHTML = students2[y].section;
+      break;
+    }
+    else{
+      user_name.innerHTML = "ـــــــــ";
+      user_ID.innerHTML = "ـــــــــ";
+      user_Group.innerHTML = "ـــــــــ";
+      user_Section.innerHTML = "ـــــــــ";
+    }
+    y++;
+  }
+
 }
 sun.onclick = () => {
   theme.href = "sun.css";

@@ -151,7 +151,6 @@ edit.onclick = () => {
   img_icon.classList.add("no_click");
 };
 function student(id1) {
-
   let x = 0;
   while (x < students1.length) {
     let id_fun = students1[x].id;
@@ -161,8 +160,7 @@ function student(id1) {
       user_Group.innerHTML = students1[x].group;
       user_Section.innerHTML = students1[x].section;
       break;
-    }
-    else{
+    } else {
       user_name.innerHTML = "ـــــــــ";
       user_ID.innerHTML = "ـــــــــ";
       user_Group.innerHTML = "ـــــــــ";
@@ -170,25 +168,6 @@ function student(id1) {
     }
     x++;
   }
-  let y = 0;
-  while (y < students2.length) {
-    let id_fun = students2[y].id;
-    if (id_fun == id1) {
-      user_name.innerHTML = students2[y].name;
-      user_ID.innerHTML = students2[y].id;
-      user_Group.innerHTML = students2[y].group;
-      user_Section.innerHTML = students2[y].section;
-      break;
-    }
-    else{
-      user_name.innerHTML = "ـــــــــ";
-      user_ID.innerHTML = "ـــــــــ";
-      user_Group.innerHTML = "ـــــــــ";
-      user_Section.innerHTML = "ـــــــــ";
-    }
-    y++;
-  }
-
 }
 sun.onclick = () => {
   theme.href = "sun.css";
@@ -202,6 +181,9 @@ moon.onclick = () => {
   moon.classList.add("theme-active");
   window.localStorage.setItem("theme", "night.css");
 };
-function no(){
+function no() {
   window.alert("لا يوجد محتوي");
+}
+function clear_data() {
+  window.localStorage.clear();
 }

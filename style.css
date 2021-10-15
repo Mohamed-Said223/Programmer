@@ -427,7 +427,7 @@ footer span a:hover {
 }
 /* books style */
 .book {
-  width: 250px;
+  width: 270px;
   min-height: 250px;
   height: min-content;
   padding: 10px;
@@ -438,7 +438,7 @@ footer span a:hover {
   text-align: center;
 }
 .book img {
-  width: 250px;
+  width: 270px;
   height: 200px;
 }
 .book p {
@@ -450,6 +450,7 @@ footer span a:hover {
 .btn-book {
   text-decoration: none;
   font-size: 30px;
+  background-color: var(--back_button);
 }
 .btn-book:hover {
   text-decoration: underline;

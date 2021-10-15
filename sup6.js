@@ -1,5 +1,6 @@
 
-let sup2=`<div class="finbyz-timeline">
+let sup6=
+`<div class="finbyz-timeline">
 <div class="container wgl-row-animation">
   <div class="row">
     <div
@@ -68,17 +69,18 @@ let sup2=`<div class="finbyz-timeline">
                     المحاضرة
                   </h5>
                   <div class="time_line-descr">
-                  اللهم صلي وسلم وبارك علي سيدنا محمد
+                  كانت محاضرة تعريفية 
+                  والدكتور اتكلم عن خطوات عمل الموقع و محتاج اي عشان يشتغل 
                   </div>
                   <hr color="#12affe">
                   <h5 class="time_line-title">
-                    22222222222محتوي مشابة
+                    محتوي مشابة
                   </h5>
                   <div class="time_line-descr">
-                    <a href="#" class="link_body">Click</a>
+                    <a href="https://youtu.be/_C_jeBVmH3E" class="link_body">Video1</a>
                   </div>
                   <hr color="#12affe"><br>
-                  <a href="#" class="download_body" download>Download Images <i class="fas fa-download"></i></a>
+                  <a class="download_body" onclick="no()">Download Images <i class="fas fa-download"></i></a>
                 </div>
               </div>
               <!-- // ======== -->
@@ -90,7 +92,7 @@ let sup2=`<div class="finbyz-timeline">
       <div
         id="particles_5cf90ca81976a"
         class="particles-js"
-        style="top: 0%; left: 0%; width: 30%; height: 100%"
+        style="top: 0%; left: 0%; width: 30%; : 100%"
         data-particles-type="hexagons"
         data-particles-number="30"
         data-particles-color="#ff7e00,#3224e9,#69e9f2"

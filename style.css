@@ -304,7 +304,8 @@ header img,
   transition: transform 0.5s ease-in-out;
 }
 .bttn-login,
-.Visitor {
+.Visitor,
+.btn-book {
   border: none;
   background-color: #fff;
   color: #03a9f4;
@@ -315,7 +316,8 @@ header img,
   margin: 0 1%;
 }
 .bttn-login:hover,
-.Visitor:hover {
+.Visitor:hover,
+.btn-book:hover {
   border: none;
   color: #fff;
   background-color: #2196f3;
@@ -324,7 +326,8 @@ header img,
   padding: 10px 20px;
 }
 .bttn-login::before,
-.Visitor::before {
+.Visitor::before,
+.btn-book::before {
   content: "";
   border-bottom: 4px solid #004464;
   height: 0px;
@@ -335,7 +338,8 @@ header img,
   transition-duration: 1s;
 }
 .bttn-login:hover::before,
-.Visitor:hover::before {
+.Visitor:hover::before,
+.btn-book:hover::before {
   width: 100%;
 }
 .link_body {
@@ -420,4 +424,34 @@ footer span a:hover {
   .download_body {
     font-size: 15px;
   }
+}
+/* books style */
+.book {
+  width: 250px;
+  min-height: 250px;
+  height: min-content;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #03a9f4;
+  border-radius: 5%;
+  display: inline-grid;
+  text-align: center;
+}
+.book img {
+  width: 250px;
+  height: 200px;
+}
+.book p {
+  font-size: 25px;
+  margin: 10px;
+  color:#004464;
+  font-weight: bold;
+}
+.btn-book {
+  text-decoration: none;
+  font-size: 30px;
+}
+.btn-book:hover {
+  text-decoration: underline;
+  font-size: 30px;
 }

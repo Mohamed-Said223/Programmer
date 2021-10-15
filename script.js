@@ -91,6 +91,24 @@ function sup_1() {
 function sup_2() {
   body.innerHTML = sup2;
 }
+function sup_3() {
+  body.innerHTML = sup3;
+}
+function sup_4() {
+  body.innerHTML = sup4;
+}
+function sup_5() {
+  body.innerHTML = sup5;
+}
+function sup_6() {
+  body.innerHTML = sup6;
+}
+function sup_7() {
+  body.innerHTML = sup7;
+}
+function books() {
+  body.innerHTML = book;
+}
 var loadFile = function (event) {
   var reader = new FileReader();
   reader.onload = function () {
@@ -184,3 +202,6 @@ moon.onclick = () => {
   moon.classList.add("theme-active");
   window.localStorage.setItem("theme", "night.css");
 };
+function no(){
+  window.alert("لا يوجد محتوي");
+}

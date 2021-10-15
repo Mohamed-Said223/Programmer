@@ -1,5 +1,5 @@
 
-let sup2=`<div class="finbyz-timeline">
+let sup4=`<div class="finbyz-timeline">
 <div class="container wgl-row-animation">
   <div class="row">
     <div
@@ -65,7 +65,7 @@ let sup2=`<div class="finbyz-timeline">
                 </div>
                 <div class="time_line-content">
                   <h5 class="time_line-title">
-                    المحاضرة
+                    22222222المحاضرة
                   </h5>
                   <div class="time_line-descr">
                   اللهم صلي وسلم وبارك علي سيدنا محمد

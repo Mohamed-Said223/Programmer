@@ -424,6 +424,9 @@ footer span a:hover {
   .download_body {
     font-size: 15px;
   }
+  .download_body:hover{
+    font-size: 15px;
+  }
 }
 /* books style */
 .book {

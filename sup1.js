@@ -59,7 +59,7 @@ let sup1=`<div class="finbyz-timeline">
                       ></path>
                     </svg>
                   </div>
-                  <h4 class="time_line-date">Sec 1</h4>
+                  <h4 class="time_line-date">#</h4>
                 </div>
                 <div class="time_line-content">
                   <h5 class="time_line-title">

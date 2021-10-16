@@ -61,24 +61,24 @@ let sup5=`<div class="finbyz-timeline">
                       ></path>
                     </svg>
                   </div>
-                  <h4 class="time_line-date">Lec 1</h4>
+                  <h4 class="time_line-date">Sec 1</h4>
                 </div>
                 <div class="time_line-content">
                   <h5 class="time_line-title">
-                    22222222المحاضرة
+                    سيكشن
                   </h5>
                   <div class="time_line-descr">
-                  اللهم صلي وسلم وبارك علي سيدنا محمد
+                  C#إعادة علي اساسيات الرمجمة علي السريع بلغة ال<br> Visual studio 2010 بستخدام برنامج 
                   </div>
                   <hr color="#12affe">
                   <h5 class="time_line-title">
-                    22222222222محتوي مشابة
+                    محتوي مشابة
                   </h5>
                   <div class="time_line-descr">
-                    <a href="#" class="link_body">Click</a>
+                    <a class="link_body">Not Found</a>
                   </div>
                   <hr color="#12affe"><br>
-                  <a href="#" class="download_body" download>Download Images <i class="fas fa-download"></i></a>
+                  <a class="download_body" onclick="no()">Download file <i class="fas fa-download"></i></a>
                 </div>
               </div>
               <!-- // ======== -->

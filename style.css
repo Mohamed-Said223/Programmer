@@ -347,6 +347,7 @@ header img,
   font-weight: bold;
   text-decoration: none;
   color: #2196f3;
+  margin: 5px 10px;
 }
 .link_body:hover {
   color: #004464;

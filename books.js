@@ -69,4 +69,14 @@ let book = `<div class="books">
 <p>UML</p>
 <a href="https://drive.google.com/file/d/10yPwFBtzbFsf7EJ0eox1j3SOg2L_jKCu/view?usp=sharing" class="btn-book" download>Download</a>
 </div>
+<div class="book">
+<img src="./book_image/book15.jpeg" alt="خطأ">
+<p>C#</p>
+<a href="https://drive.google.com/file/d/1vb_QQ0bVB8ZukZ8W-XOC5jx8q3r7X25q/view?usp=sharing" class="btn-book" download>Download</a>
+</div>
+<div class="book">
+<img src="./book_image/book16.jpeg" alt="خطأ">
+<p>C#</p>
+<a href="https://drive.google.com/file/d/1MwKR5MfdcWF1O9tvF3LMmxSN3eN6wD_S/view?usp=sharing" class="btn-book" download>Download</a>
+</div>
 </div>`;

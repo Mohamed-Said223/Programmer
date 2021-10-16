@@ -1410,7 +1410,7 @@ let students1 = [
     
     {
     num:170,
-    name:"اسمه عبيد على", 
+    name:"اسامه عبيد على", 
     id:2020030174,
     section:1,
     group:2,

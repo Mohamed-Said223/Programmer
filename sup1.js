@@ -27,6 +27,49 @@ let sup1=`<div class="finbyz-timeline">
               
             </div>
             <div class="seofy_module_time_line_vertical appear_anim">
+              <div
+                id="time_line_5cf90ca818fe44"
+                class="time_line-item item_show"
+              >
+                <div class="time_line-date_wrap">
+                  <div class="seofy_hexagon">
+                    <svg
+                      style="fill: #12affe"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 177.4 197.4"
+                    >
+                      <path
+                        d="M0,58.4v79.9c0,6.5,3.5,12.6,9.2,15.8l70.5,40.2c5.6,3.2,12.4,3.2,18,0l70.5-40.2c5.7-3.2,9.2-9.3,9.2-15.8V58.4 c0-6.5-3.5-12.6-9.2-15.8L97.7,2.4c-5.6-3.2-12.4-3.2-18,0L9.2,42.5C3.5,45.8,0,51.8,0,58.4z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="seofy_hexagon">
+                    <svg
+                      style="
+                        filter: drop-shadow(
+                          4px 5px 4px rgba(18, 175, 254, 0.3)
+                        );
+                        fill: #12affe;
+                      "
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 177.4 197.4"
+                    >
+                      <path
+                        d="M0,58.4v79.9c0,6.5,3.5,12.6,9.2,15.8l70.5,40.2c5.6,3.2,12.4,3.2,18,0l70.5-40.2c5.7-3.2,9.2-9.3,9.2-15.8V58.4 c0-6.5-3.5-12.6-9.2-15.8L97.7,2.4c-5.6-3.2-12.4-3.2-18,0L9.2,42.5C3.5,45.8,0,51.8,0,58.4z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <h4 class="time_line-date">Sec 1</h4>
+                </div>
+                <div class="time_line-content">
+                  <h5 class="time_line-title">
+                    مرجع للمادة 
+                  </h5>
+                  <br>
+                  <a href="https://drive.google.com/file/d/1va4qn1uFo0ZyQIs7Tm03E9XP0P9Op_ft/view?usp=drivesdk" class="download_body" download >Download file <i class="fas fa-download"></i></a>
+                  
+                </div>
+              </div>
               <!-- // ======== -->
               
               <div
@@ -61,24 +104,25 @@ let sup1=`<div class="finbyz-timeline">
                       ></path>
                     </svg>
                   </div>
-                  <h4 class="time_line-date">Lec 1</h4>
+                  <h4 class="time_line-date">Sec 1</h4>
                 </div>
                 <div class="time_line-content">
                   <h5 class="time_line-title">
-                    22222222المحاضرة
+                    سيكشن 
                   </h5>
                   <div class="time_line-descr">
-                  اللهم صلي وسلم وبارك علي سيدنا محمد
+                  -------
                   </div>
                   <hr color="#12affe">
                   <h5 class="time_line-title">
-                    22222222222محتوي مشابة
+                    Sheets
                   </h5>
                   <div class="time_line-descr">
-                    <a href="#" class="link_body">Click</a>
+                    <a href="https://drive.google.com/file/d/1vlG04o7aZB7SXJXx6NtuLCPAFwkmqEY5/view?usp=sharing" class="link_body" download>Sheet1</a>
+                    <a href="https://drive.google.com/file/d/1vetI_aKxXtPqO-wjlaJHUmC0RpKvKU6P/view?usp=sharing" class="link_body" download>Sheet2</a>
                   </div>
                   <hr color="#12affe"><br>
-                  <a href="#" class="download_body" download>Download Images <i class="fas fa-download"></i></a>
+                  <a class="download_body" download onclick="no()">Download Images <i class="fas fa-download"></i></a>
                 </div>
               </div>
               <!-- // ======== -->

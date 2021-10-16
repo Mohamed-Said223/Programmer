@@ -28,6 +28,62 @@ let sup6=
               
             </div>
             <div class="seofy_module_time_line_vertical appear_anim">
+            <!-- // ======== -->
+            
+            <div
+              id="time_line_5cf90ca818fe44"
+              class="time_line-item item_show"
+            >
+              <div class="time_line-date_wrap">
+                <div class="seofy_hexagon">
+                  <svg
+                    style="fill: #12affe"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 177.4 197.4"
+                  >
+                    <path
+                      d="M0,58.4v79.9c0,6.5,3.5,12.6,9.2,15.8l70.5,40.2c5.6,3.2,12.4,3.2,18,0l70.5-40.2c5.7-3.2,9.2-9.3,9.2-15.8V58.4 c0-6.5-3.5-12.6-9.2-15.8L97.7,2.4c-5.6-3.2-12.4-3.2-18,0L9.2,42.5C3.5,45.8,0,51.8,0,58.4z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="seofy_hexagon">
+                  <svg
+                    style="
+                      filter: drop-shadow(
+                        4px 5px 4px rgba(18, 175, 254, 0.3)
+                      );
+                      fill: #12affe;
+                    "
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 177.4 197.4"
+                  >
+                    <path
+                      d="M0,58.4v79.9c0,6.5,3.5,12.6,9.2,15.8l70.5,40.2c5.6,3.2,12.4,3.2,18,0l70.5-40.2c5.7-3.2,9.2-9.3,9.2-15.8V58.4 c0-6.5-3.5-12.6-9.2-15.8L97.7,2.4c-5.6-3.2-12.4-3.2-18,0L9.2,42.5C3.5,45.8,0,51.8,0,58.4z"
+                    ></path>
+                  </svg>
+                </div>
+                <h4 class="time_line-date">Lec 1</h4>
+              </div>
+              <div class="time_line-content">
+                <h5 class="time_line-title">
+                  المحاضرة
+                </h5>
+                <div class="time_line-descr">
+                كانت محاضرة تعريفية 
+                والدكتور اتكلم عن خطوات عمل الموقع و محتاج اي عشان يشتغل 
+                </div>
+                <hr color="#12affe">
+                <h5 class="time_line-title">
+                  محتوي مشابة
+                </h5>
+                <div class="time_line-descr">
+                  <a href="https://youtu.be/_C_jeBVmH3E" class="link_body">Video1</a>
+                </div>
+                <hr color="#12affe"><br>
+                <a class="download_body" onclick="no()">Download Images <i class="fas fa-download"></i></a>
+              </div>
+            </div>
+            <!-- // ======== -->
               <!-- // ======== -->
               
               <div
@@ -62,25 +118,24 @@ let sup6=
                       ></path>
                     </svg>
                   </div>
-                  <h4 class="time_line-date">Lec 1</h4>
+                  <h4 class="time_line-date">Lec 2</h4>
                 </div>
                 <div class="time_line-content">
                   <h5 class="time_line-title">
                     المحاضرة
                   </h5>
                   <div class="time_line-descr">
-                  كانت محاضرة تعريفية 
-                  والدكتور اتكلم عن خطوات عمل الموقع و محتاج اي عشان يشتغل 
+                  الدكتور اتكلم عن تاريخ الانترنت و الويب وبعض المصطلحات عن الويب و المطلوب هو حفظ التعريفات اللي موجودة في الجزء دا وفهم الباقي 
                   </div>
                   <hr color="#12affe">
                   <h5 class="time_line-title">
                     محتوي مشابة
                   </h5>
                   <div class="time_line-descr">
-                    <a href="https://youtu.be/_C_jeBVmH3E" class="link_body">Video1</a>
+                    <a  class="link_body">Not Found</a>
                   </div>
                   <hr color="#12affe"><br>
-                  <a class="download_body" onclick="no()">Download Images <i class="fas fa-download"></i></a>
+                  <a href="https://drive.google.com/file/d/1v92b7gC6jRacfR4RJor4i2lluFs7orR8/view?usp=sharing" class="download_body" download >Download file <i class="fas fa-download"></i></a>
                 </div>
               </div>
               <!-- // ======== -->

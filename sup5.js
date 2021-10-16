@@ -68,7 +68,7 @@ let sup5=`<div class="finbyz-timeline">
                     سيكشن
                   </h5>
                   <div class="time_line-descr">
-                  C#إعادة علي اساسيات الرمجمة علي السريع بلغة ال<br> Visual studio 2010 بستخدام برنامج 
+                  C#إعادة علي اساسيات البرمجة علي السريع بلغة ال<br> Visual studio 2010 بستخدام برنامج 
                   </div>
                   <hr color="#12affe">
                   <h5 class="time_line-title">

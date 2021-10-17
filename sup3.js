@@ -61,24 +61,26 @@ let sup3=`<div class="finbyz-timeline">
                       ></path>
                     </svg>
                   </div>
-                  <h4 class="time_line-date">Lec 1</h4>
+                  <h4 class="time_line-date">Sec 1</h4>
                 </div>
                 <div class="time_line-content">
                   <h5 class="time_line-title">
-                    22222222المحاضرة
+                    سيكشن 
+                    
                   </h5>
                   <div class="time_line-descr">
-                  اللهم صلي وسلم وبارك علي سيدنا محمد
+                  اخدنا المصفوفات من البعد الاول والثاني 
                   </div>
                   <hr color="#12affe">
                   <h5 class="time_line-title">
-                    22222222222محتوي مشابة
+                    محتوي مشابة
                   </h5>
                   <div class="time_line-descr">
-                    <a href="#" class="link_body">Click</a>
+                    <a href="https://youtu.be/UjItuSZ4plw" class="link_body">Video1</a>
+                    <a href="https://youtu.be/cPTXgG2FKjE" class="link_body">Video2</a>
                   </div>
                   <hr color="#12affe"><br>
-                  <a href="#" class="download_body" download>Download Images <i class="fas fa-download"></i></a>
+                  <a href="https://drive.google.com/file/d/1wp43h5PV2zE2hCQFyz3q-kPxH46h7bVe/view?usp=sharing" class="download_body" download>Download Image <i class="fas fa-download"></i></a>
                 </div>
               </div>
               <!-- // ======== -->

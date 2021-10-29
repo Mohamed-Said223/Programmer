@@ -482,7 +482,7 @@ let students1 = [
     num: 61,
     name: "محمد ابراهيم احمد",
     id: 2020030062,
-    section: 3,
+    section: 2,
     group: 1,
   },
 
@@ -490,7 +490,7 @@ let students1 = [
     num: 62,
     name: "محمد جمال عوض",
     id: 2020030063,
-    section: 3,
+    section: 2,
     group: 1,
   },
 
@@ -706,7 +706,7 @@ let students1 = [
     num: 91,
     name: "يوسف محمود محمد ",
     id: 2020030094,
-    section: 4,
+    section: 3,
     group: 2,
   },
 
@@ -714,7 +714,7 @@ let students1 = [
     num: 92,
     name: "ابراهيم احمد عبد اللطيف",
     id: 2020030095,
-    section: 4,
+    section: 3,
     group: 2,
   },
 
@@ -722,7 +722,7 @@ let students1 = [
     num: 93,
     name: "احمد نبيل ابراهيم",
     id: 2020030096,
-    section: 4,
+    section: 3,
     group: 2,
   },
 
@@ -966,7 +966,7 @@ let students1 = [
     num:121,
     name:"يوسف طارق عبد الغفور" , 
     id:2020030125,
-    section:5,
+    section:4,
     group:2,
     },
     
@@ -975,7 +975,7 @@ let students1 = [
     num:122,
     name:"صلاح الدين محمد يوسف " ,
     id:2020030126,
-    section:5,
+    section:4,
     group:2,
     },
     
@@ -985,7 +985,7 @@ let students1 = [
     num:123,
     name:"عمرو عبدالحكيم عبدالوانيس" ,
     id:2020030127,
-    section:5,
+    section:4,
     group:2,
     },
     
@@ -995,7 +995,7 @@ let students1 = [
     num:124,
     name:"محمد مداح صالح ",
     id:2020030128,
-    section:5,
+    section:4,
     group:2,
     },
     
@@ -1110,7 +1110,7 @@ let students1 = [
     num:136,
     name:"المعتصم بالله سعيد ",
     id:2020030140,
-    section:5,
+    section:6,
     group:2,
     },
     
@@ -1244,7 +1244,7 @@ let students1 = [
     num:151,
     name:"عمرو محمد عبد الفتاح " ,
     id:2020030155,
-    section:6,
+    section:5,
     group:2,
     },
     
@@ -1253,7 +1253,7 @@ let students1 = [
     num:152,
     name:"كريم محمد صقر" ,
     id:2020030156,
-    section:6,
+    section:5,
     group:2,
     },
     
@@ -1262,7 +1262,7 @@ let students1 = [
     num:153,
     name:"محمد اشرف احمد" ,
     id:2020030157,
-    section:6,
+    section:5,
     group:2,
     },
     
@@ -1271,7 +1271,7 @@ let students1 = [
     num:154,
     name:"محمد اشرف عطا" ,
     id:2020030158,
-    section:6,
+    section:5,
     group:2,
     },
     
@@ -1280,7 +1280,7 @@ let students1 = [
     num:155,
     name:"محمد اشرف محمد " ,
     id:2020030159,
-    section:6,
+    section:5,
     group:2,
     },
     
@@ -1289,7 +1289,7 @@ let students1 = [
     num:156,
     name:"محمد حمدى هاشم " ,
     id:2020030160,
-    section:6,
+    section:5,
     group:2,
     },
     

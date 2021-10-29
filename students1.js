@@ -707,7 +707,7 @@ let students1 = [
     name: "يوسف محمود محمد ",
     id: 2020030094,
     section: 3,
-    group: 2,
+    group: 1,
   },
 
   {
@@ -715,7 +715,7 @@ let students1 = [
     name: "ابراهيم احمد عبد اللطيف",
     id: 2020030095,
     section: 3,
-    group: 2,
+    group: 1,
   },
 
   {
@@ -723,7 +723,7 @@ let students1 = [
     name: "احمد نبيل ابراهيم",
     id: 2020030096,
     section: 3,
-    group: 2,
+    group: 1,
   },
 
   {
